@@ -3,7 +3,7 @@ import Key from "./Key";
 
 const Numberpad = ({ changeDisplay }) => {
   return (
-    <div>
+    <div id="pad">
       <Key
         name="clear"
         content="AC"
